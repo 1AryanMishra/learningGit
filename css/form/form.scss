@@ -1,4 +1,47 @@
 *{
+    margin: 0;
     background: #000;
     color: #fff;
+}
+
+.form{
+    margin: 3em auto;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    h2{
+        font-weight: bold;
+        text-align: center;
+
+    }
+
+    .input-section{
+        border-top-left-radius: 23px;
+        border-top: 2px solid yellow;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    
+        .input{
+            border: 2px solid blue;
+            max-width: 100%;
+            display: flex;
+            margin: 0 auto;
+            margin-top: 1em;
+            justify-content: space-between;
+    
+            p{
+                font-size: 1.2rem;
+            }
+    
+            input{
+                padding: 1em;
+            }
+
+        }
+
+    }
+
 }

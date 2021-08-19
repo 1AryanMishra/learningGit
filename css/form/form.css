@@ -1,5 +1,62 @@
 * {
+  margin: 0;
   background: #000;
   color: #fff;
+}
+
+.form {
+  margin: 3em auto;
+  border: 2px solid red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.form h2 {
+  font-weight: bold;
+  text-align: center;
+}
+
+.form .input-section {
+  border-top-left-radius: 23px;
+  border-top: 2px solid yellow;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.form .input-section .input {
+  border: 2px solid blue;
+  max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 1em;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.form .input-section .input p {
+  font-size: 1.2rem;
+}
+
+.form .input-section .input input {
+  padding: 1em;
 }
 /*# sourceMappingURL=form.css.map */
